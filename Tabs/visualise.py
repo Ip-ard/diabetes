@@ -17,7 +17,7 @@ def app(dataset, x, y):
 
     if st.checkbox("Plot Confusion Matrix"):
         model, score = train_model(x,y)
-        plt.figure(figsize=(10,6))
+        plt.figure(1)
         confusion_matrix(model, x, y, values_format='d')
         st.pyplot()
 
