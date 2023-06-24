@@ -15,13 +15,13 @@ def app(dataset, x, y):
 
     st.title("Visualisasi Prediksi Diabetes")
 
-    if st.checkbox("Plot Confusion Matrix"):
-        model, score = train_model(x,y)
-        plt.figure(1)
-        confusion_matrix(model, x, y, values_format='d')
-        st.pyplot()
+    # if st.checkbox("Plot Confusion Matrix"):
+    #     model, score = train_model(x,y)
+    #     plt.figure(1)
+    #     confusion_matrix(model, x, y, values_format='d')
+    #     st.pyplot()
 
-    if st.checkbox("Plot Decision Tree"):
+    if st.checkbox("Decision Tree"):
         model, score = train_model(x,y)
         dot_data = tree.export_graphviz(
             decision_tree=model, max_depth=3, out_file=None, filled=True, rounded=True,
