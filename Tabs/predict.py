@@ -27,4 +27,4 @@ def app(dataset, x, y):
         else:
             st.success("Orang Tersebut Aman Dari Penyakit Diabetes")
 
-        st.write("Model Yang Digunakan Memiliki Tingkat Akurasi ", (score*100),"%")
+        # st.write("Model Yang Digunakan Memiliki Tingkat Akurasi ", (score*100),"%")
