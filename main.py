@@ -8,7 +8,7 @@ from Tabs import home, predict, visualise
 Tabs = {
     "Home" : home,
     "Prediction" : predict,
-    # "Visualisation" : visualise
+    "Visualisation" : visualise
 }
 
 # Membuat Sidebar
