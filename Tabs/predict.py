@@ -23,8 +23,8 @@ def app(dataset, x, y):
         st.info("Prediksi Sukses...")
 
         if (prediction == 1):
-            st.warning("Orang tersebut rentan terkena penyakit Diabetes")
+            st.warning("Orang Tersebut Terkena Penyakit Diabetes")
         else:
-            st.success("Orang tersebut relatif aman dari penyakit Diabetes")
+            st.success("Orang Tersebut Aman Dari Penyakit Diabetes")
 
-        st.write("Model yang digunakan memiliki tingkat akurasi ", (score*100),"%")
+        st.write("Model Yang Digunakan Memiliki Tingkat Akurasi ", (score*100),"%")
