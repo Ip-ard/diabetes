@@ -8,7 +8,7 @@ def app(dataset, x, y):
 
     # col1, col2, col3 = st.columns(3)
 
-    Pregnancies = st.text_input ('Input Nilai Kehamilan')
+    Pregnancies = st.text_input ('Input Jumlah Kehamilan')
     Glucose = st.text_input ('Input Nilai Glukosa')
     BloodPressure = st.text_input ('Input Nilai Tekanan Darah')
     BMI = st.text_input ('Input Nilai BMI')
